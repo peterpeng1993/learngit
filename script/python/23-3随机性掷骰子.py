@@ -19,4 +19,4 @@ for i in range (1000000):
         ten_heads_in_row += 1
         heads_in_row = 0
     
-print "We got 10 heads in a row", ten_heads_in_row, "times."
+print ("We got 10 heads in a row", ten_heads_in_row, "times.")

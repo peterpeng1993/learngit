@@ -13,4 +13,4 @@ for i in range(1000):
     totals[dice_total] += 1                                         
     
 for i in range (2, 13):
-    print "total", i, "came up", totals[i], "times"
+    print ("total", i, "came up", totals[i], "times")
