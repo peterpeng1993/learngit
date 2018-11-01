@@ -42,3 +42,29 @@ del numbers[5]
 last_number=numbers.pop()
 print(numbers)
 print(last_number)
+empty=[]
+number=empty
+number.append(3)       #添加元素
+print(number)
+number.extend([4,5])   #扩展列表
+print(number)
+a=number
+print(number)
+print(a)
+print(number)
+number=a.insert(1,2)  #在2号位插入2 
+print(number)         #结果为空
+print(a)
+number=a.insert(0,1)  #在1号位插入1
+print(a)
+print(number)
+print(a[0])
+print(a[4])
+a[1],a[2]=a[2],a[1]   #将第2个元素与第3个元素对换
+print(a)
+print(a.pop(2))       #弹出列表中3号位的元素
+a.remove(4)           #删除列表中的元素
+print(a) 
+del a[0]              #删除1号位的元素
+print(a)
+del a                 #删除整个元素列表

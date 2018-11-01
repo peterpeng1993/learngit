@@ -91,4 +91,5 @@ while 1:
             done = True                                                   
         else:  #wait 2 seconds, then start the next ball                  
             pygame.time.delay(2000)                                       
-            myBall.rect.topleft = [50, 50]   
+            myBall.rect.topleft = [50, 50]
+pygame.quit()

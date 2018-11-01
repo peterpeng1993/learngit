@@ -16,7 +16,7 @@ for i in range(2,13):
     print("total",i,"came up",totals[i],"times")
 
 import random
-totals=[0,0,0,0,0,0,0,0,0,0,0,0,0]#列表的索引从0开始，到12结束。
+totals=[0,0,0,0,0,0,0,0,0,0,0,0,0]    #列表的索引从0开始，到12结束。
 for i in range(10000):
     dice_total=random.randint(2,12)
     totals[dice_total] +=1
