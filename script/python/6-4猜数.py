@@ -1,4 +1,3 @@
-# Listinig_6-5.py
 # Copyright Warren Sande, 2009
 # Released under MIT license   http://www.opensource.org/licenses/mit-license.php
 # Version 61  ----------------------------

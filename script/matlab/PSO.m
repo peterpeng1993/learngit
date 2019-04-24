@@ -34,7 +34,4 @@ for t=1:M
 end
 xm = pg';
 fv =fitness(pg);
-
-
-
 end
