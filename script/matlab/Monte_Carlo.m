@@ -1,3 +1,5 @@
+clc;
+clear;
 syms x
 area2=int(x.^2,0,3)+int(12-x,3,12);
 area2=vpa(area2,3) %将分数转化为小数

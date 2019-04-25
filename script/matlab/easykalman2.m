@@ -47,8 +47,8 @@ for k = 2:n_iter
     P(k) = (1-K(k))*Pminus(k);
 end
 
-FontSize = 14;
-LineWidth = 3;
+FontSize = 12;
+LineWidth = 1;
 figure();
 plot(z,'k+'); %画出温度计的测量值
 hold on;
